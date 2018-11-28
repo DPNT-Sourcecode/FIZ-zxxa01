@@ -31,7 +31,11 @@ def fizz_buzz(number):
     	    return 'buzz'
 	else:
      	    return number
+
+        if number==0:
+	    return number
    	 
 #test function 
 for i in range (-4,35):
 	print(i,fizz_buzz(i))
+

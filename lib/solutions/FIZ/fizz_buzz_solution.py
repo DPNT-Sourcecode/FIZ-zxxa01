@@ -61,9 +61,16 @@ def fizz_buzz(number):
 
         if (isDeluxe(number)):
 	    if op==str(number):
-	       op="deluxe"
+		if isFake(number):
+		    op="fake deluxe"
+		else:
+	            op="deluxe"
 	    else:
-	       op = op + " deluxe"
+		if isFake(number):
+	       	    op = op + " fake deluxe"
+		else:
+	            op="deluxe"
+
 
         if number==0:
 	    op= str(number)
@@ -86,4 +93,5 @@ def fizz_buzz(number):
 #print (444, fizz_buzz(465))
 #print (555, fizz_buzz(555))
 #print (500, fizz_buzz(500))
+
 

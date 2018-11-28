@@ -1,5 +1,8 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
+	def isDivThree(n):
+	    if (n%3) == 0:
+		  
      fcheck=divmod(number,3)
      bcheck=divmod(number,5)
      if (fcheck[1]==0) and (bcheck[1]==0):
@@ -17,3 +20,4 @@ def fizz_buzz(number):
 #test function 
 #for i in range (-4,16):
 #	print(i,fizz_buzz(i))
+

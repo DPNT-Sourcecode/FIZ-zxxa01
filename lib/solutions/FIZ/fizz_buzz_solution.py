@@ -90,8 +90,10 @@ def fizz_buzz(number):
 #print (22, fizz_buzz(22))
 #print (30, fizz_buzz(30))
 #print (465, fizz_buzz(465))
-#print (444, fizz_buzz(465))
+print (444, fizz_buzz(465))
+print (222, fizz_buzz(222))
 #print (555, fizz_buzz(555))
 #print (500, fizz_buzz(500))
+
 
 

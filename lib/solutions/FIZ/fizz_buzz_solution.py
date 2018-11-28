@@ -38,12 +38,16 @@ def fizz_buzz(number):
         if number==0:
 	    op= number
 
-
 	return op 
    	 
 #test function 
 #for i in range (-4,35):
 #	print(i,fizz_buzz(i))
+
+print (15, fizz_buzz(15))
+print (30, fizz_buzz(30))
+print (465, fizz_buzz(465))
+
 
 
 

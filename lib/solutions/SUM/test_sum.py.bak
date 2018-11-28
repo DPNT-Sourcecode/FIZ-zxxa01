@@ -6,6 +6,3 @@ class TestCompute(unittest.TestCase):
 	self.assertEqual(sum_solution.compute(0,1),1)
 	self.assertEqual(sum_solution.compute(0,0),0)
 
-
-
-

@@ -6,3 +6,9 @@ def hello(friend_name):
     print(friend_name)
 
 
+#test function
+
+#hello('joihn')
+
+
+

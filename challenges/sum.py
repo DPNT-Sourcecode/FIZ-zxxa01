@@ -5,9 +5,8 @@ def sum (int1, int2):
 
 #test function
 
-for i in range(1,100,1):
-    print(i, sum(i,1))
+#for i in range(1,100,1):
+    #print(i, sum(i,1))
 
 #test function - type error
-print(i, sum('one',1))
-
+#print(i, sum('one',1))

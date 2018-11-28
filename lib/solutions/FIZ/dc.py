@@ -18,6 +18,3 @@ def dc(number):
 
 print dc(654)
 print dc(333)
-
-
-

@@ -7,7 +7,7 @@ def fizz_buzz(number):
     	    nstr=str(number)
 	    prev=False
     	    for i in range(len(nstr)):
-        	print('i=',i,"nstr[i]=",nstr[i])
+        	#print('i=',i,"nstr[i]=",nstr[i])
         	if i == 0:
             	    prev = nstr[i]
         	elif prev == nstr[i]:
@@ -56,8 +56,10 @@ def fizz_buzz(number):
     	    op= 'fizz buzz'
 
         if (isDeluxe(number)):
-	    print "op is",op
-	    op = op + "deluxe"
+	    if op==str(number):
+	       op="deluxe"
+	    else:
+	       op = op + " deluxe"
 
         if number==0:
 	    op= str(number)
@@ -71,13 +73,16 @@ def fizz_buzz(number):
 print (10, fizz_buzz(10))
 print (12, fizz_buzz(12))
 print (11, fizz_buzz(11))
+print (1111, fizz_buzz(1111))
 print (15, fizz_buzz(15))
-#print (33, fizz_buzz(33))
-#print (30, fizz_buzz(30))
-#print (465, fizz_buzz(465))
-#print (444, fizz_buzz(465))
-#print (555, fizz_buzz(555))
-#print (500, fizz_buzz(500))
+print (33, fizz_buzz(33))
+print (22, fizz_buzz(22))
+print (30, fizz_buzz(30))
+print (465, fizz_buzz(465))
+print (444, fizz_buzz(465))
+print (555, fizz_buzz(555))
+print (500, fizz_buzz(500))
+
 
 
 

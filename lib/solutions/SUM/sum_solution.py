@@ -5,4 +5,3 @@ def compute(x, y):
     if (int1 < 0) or (int1 > 100) or (int2 < 0) or (int2 > 100):
         raise valueError("The arguments must be in range 0-100")
     return int1+int2
-

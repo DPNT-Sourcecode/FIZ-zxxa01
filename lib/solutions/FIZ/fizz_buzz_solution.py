@@ -1,12 +1,23 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
 
-	def isDeluxe(n):
-	    if n > 10: 
- 	        str.find(str(number),'3')!= -1:
-	        return  True 	  
-	    else:
-                 return False
+
+	def isDeluxe(number):
+    	    nstr=str(number)
+    	    for i, d in enumerate(nstr):
+        	print('i=',i,"d=",d)
+        	if i == 0:
+            	    prev_d = d
+        	if prev_d == d:
+           	   isSame = True
+           	   prev_d = d
+           	   print('i=',i,"d=",d, 'prev_d=',' prev_d')
+        	else:
+           	   return False
+
+            return isSame
+
+
 
 	def containsThree(n):
 	    if str.find(str(number),'3')!= -1:
@@ -54,5 +65,7 @@ def fizz_buzz(number):
 print (15, fizz_buzz(15))
 print (30, fizz_buzz(30))
 print (465, fizz_buzz(465))
+print (444, fizz_buzz(465))
+
 
 

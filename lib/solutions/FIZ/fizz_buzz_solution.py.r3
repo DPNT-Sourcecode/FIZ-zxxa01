@@ -64,6 +64,8 @@ def fizz_buzz(number):
         if number==0:
 	    op= str(number)
 
+        print "isDivThree ",number, isDivThree(number)
+        print "isDivFive ",number, isDivFive(number)
 	return op 
    	 
 #test function 
@@ -85,5 +87,3 @@ print (22, fizz_buzz(22))
 print (444, fizz_buzz(465))
 print (555, fizz_buzz(555))
 print (500, fizz_buzz(500))
-
-

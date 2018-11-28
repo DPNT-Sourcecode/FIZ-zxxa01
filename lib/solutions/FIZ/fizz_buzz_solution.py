@@ -50,7 +50,7 @@ def fizz_buzz(number):
 	elif isDivFive(number) or containsFive(number):
     	    op= 'buzz'
 	else:
-     	    op= number
+     	    op= str(number)
 
 	if (isDivFive(number) or containsFive(number)) and (isDivThree(number) or containsThree(number)) :
     	    op= 'fizz buzz'
@@ -78,6 +78,7 @@ print (15, fizz_buzz(15))
 #print (444, fizz_buzz(465))
 #print (555, fizz_buzz(555))
 #print (500, fizz_buzz(500))
+
 
 
 

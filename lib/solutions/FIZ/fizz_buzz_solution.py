@@ -8,13 +8,13 @@ def fizz_buzz(number):
 	op="fizz"
      elif (fcheck[1])!=0 and (bcheck[1]==0):
 	op="buzz"
-     elif (number=0):
-	op==number
-
      else:
-	     op=number
+	   op=number
+     if (number==0):
+	op=number
      return  op 
 
 #test function 
-for i in range (-4,16):
-	print(i,fizz_buzz(i))
+#for i in range (-4,16):
+#	print(i,fizz_buzz(i))
+

@@ -1,6 +1,18 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
 
+	def containsThree(n):
+	    if str.find(str(number),'3')!= -1:
+	        return  True 	  
+	    else:
+                 return False
+
+	def containsFive(n):
+	    if str.find(str(number),'5')!= -1:
+	        return  True 	  
+	    else:
+                 return False
+
 	def isDivThree(n):
 	    if (n%3) == 0:
 	        return  True 	  
@@ -13,16 +25,13 @@ def fizz_buzz(number):
 	    else:
                  return False
 
-	if isDivThree(number):
+	if isDivThree(number) or containsThree(number):
     	    return 'fizz'
-	elif isDivFive(number):
+	elif isDivFive(number) or containsFive(number):
     	    return 'buzz'
 	else:
      	    return number
    	 
 #test function 
-for i in range (-4,16):
+for i in range (-4,35):
 	print(i,fizz_buzz(i))
-
-
-

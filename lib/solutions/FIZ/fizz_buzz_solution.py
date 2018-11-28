@@ -1,17 +1,19 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
 
-
 	def isDeluxe(number):
+            if number < 10:
+                return False
     	    nstr=str(number)
-    	    for i, d in enumerate(nstr):
-        	print('i=',i,"d=",d)
+	    prev=False
+    	    for i in range(len(nstr)):
+        	print('i=',i,"nstr[i]=",nstr[i])
         	if i == 0:
-            	    prev_d = d
-        	if prev_d == d:
+            	    prev = nstr[i]
+        	elif prev == nstr[i]:
            	   isSame = True
-           	   prev_d = d
-           	   print('i=',i,"d=",d, 'prev_d=',' prev_d')
+           	   prev = nstr[i]
+           	   print('i=',i,"d=",nstr[i], 'prev_d=',' prev_d')
         	else:
            	   return False
 
@@ -66,6 +68,7 @@ print (15, fizz_buzz(15))
 print (30, fizz_buzz(30))
 print (465, fizz_buzz(465))
 print (444, fizz_buzz(465))
+
 
 
 

@@ -5,6 +5,8 @@ def hello(friend_name):
 
 #test function
 
-#hello('joihn')
+hello("Craftsman")
+hello("Mr. X")
+
 
 

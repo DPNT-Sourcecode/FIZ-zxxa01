@@ -69,6 +69,9 @@ def fizz_buzz(number):
 #test function 
 #for i in range (-4,35):
 #	print(i,fizz_buzz(i))
+#test function
+for i in range (442,445):
+        print(i,fizz_buzz(i))
 
 #print (10, fizz_buzz(10))
 #print (12, fizz_buzz(12))
@@ -82,4 +85,5 @@ print (22, fizz_buzz(22))
 print (444, fizz_buzz(465))
 print (555, fizz_buzz(555))
 print (500, fizz_buzz(500))
+
 

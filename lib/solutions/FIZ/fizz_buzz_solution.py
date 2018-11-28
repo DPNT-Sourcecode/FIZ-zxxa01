@@ -56,6 +56,7 @@ def fizz_buzz(number):
     	    op= 'fizz buzz'
 
         if (isDeluxe(number)):
+	    print "op is",op
 	    op = op + "deluxe"
 
         if number==0:
@@ -67,6 +68,8 @@ def fizz_buzz(number):
 #for i in range (-4,35):
 #	print(i,fizz_buzz(i))
 
+print (10, fizz_buzz(10))
+print (12, fizz_buzz(12))
 print (11, fizz_buzz(11))
 print (15, fizz_buzz(15))
 #print (33, fizz_buzz(33))
@@ -75,6 +78,7 @@ print (15, fizz_buzz(15))
 #print (444, fizz_buzz(465))
 #print (555, fizz_buzz(555))
 #print (500, fizz_buzz(500))
+
 
 
 

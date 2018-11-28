@@ -3,8 +3,7 @@ def fizz_buzz(number):
 
 	def isDeluxe(n):
 	    if n > 10: 
-
-str.find(str(number),'3')!= -1:
+ 	str.find(str(number),'3')!= -1:
 	        return  True 	  
 	    else:
                  return False
@@ -55,3 +54,4 @@ str.find(str(number),'3')!= -1:
 print (15, fizz_buzz(15))
 print (30, fizz_buzz(30))
 print (465, fizz_buzz(465))
+

@@ -13,15 +13,16 @@ def fizz_buzz(number):
 	    else:
                  return False
 
-if isDivThree(number):
-    return 'fizz'
-elif isDivFive(number):
-    return 'buzz'
-else:
-     return number
-
-test function 
+	if isDivThree(number):
+    	    return 'fizz'
+	elif isDivFive(number):
+    	    return 'buzz'
+	else:
+     	    return number
+   	 
+#test function 
 for i in range (-4,16):
 	print(i,fizz_buzz(i))
+
 
 

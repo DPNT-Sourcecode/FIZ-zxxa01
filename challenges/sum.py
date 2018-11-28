@@ -7,12 +7,11 @@ def sum (int1, int2):
 
 #test function
 
-for i in range(0,100,1):
-    print(i, sum(i,1))
+print sum(0,1)
 
-#print(i, sum( -1,0))
 
 #test function - type error
 #print(i, sum('one',1))
+
 
 

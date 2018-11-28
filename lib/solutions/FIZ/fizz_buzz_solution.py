@@ -26,16 +26,20 @@ def fizz_buzz(number):
                  return False
 
 	if isDivThree(number) or containsThree(number):
-    	    return 'fizz'
+    	    op= 'fizz'
 	elif isDivFive(number) or containsFive(number):
-    	    return 'buzz'
+    	    op= 'buzz'
 	else:
-     	    return number
+     	    op= number
 
         if number==0:
-	    return number
+	    op= number
+
+
+	return op 
    	 
 #test function 
 for i in range (-4,35):
 	print(i,fizz_buzz(i))
+
 

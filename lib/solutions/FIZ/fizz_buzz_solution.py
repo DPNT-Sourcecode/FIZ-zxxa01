@@ -6,23 +6,11 @@ def fizz_buzz(number):
 	    return fcheck[1]==1
 
 	def isDeluxe(number):
-            if number < 10:
-                return False
     	    nstr=str(number)
-	    prev=False
-    	    for i in range(len(nstr)):
-        	#print('i=',i,"nstr[i]=",nstr[i])
-        	if i == 0:
-            	    prev = nstr[i]
-        	elif prev == nstr[i]:
-           	   isSame = True
-           	   prev = nstr[i]
-           	   #print('i=',i,"d=",nstr[i], 'prev_d=',' prev_d')
-        	else:
-           	   return False
-
-            return isSame
-
+	    if (isDivThree(number) and containsThree(number)) or (isDivFive(number) and containsFive(number)):
+		return True
+	    else:
+	        return False
 
 
 	def containsThree(n):
@@ -82,16 +70,17 @@ def fizz_buzz(number):
 #	print(i,fizz_buzz(i))
 
 #print (10, fizz_buzz(10))
-#print (12, fizz_buzz(12))
+print (12, fizz_buzz(12))
 #print (11, fizz_buzz(11))
-#print (1111, fizz_buzz(1111))
+print (1111, fizz_buzz(1111))
 #print (15, fizz_buzz(15))
 #print (33, fizz_buzz(33))
 #print (22, fizz_buzz(22))
-#print (30, fizz_buzz(30))
+print (30, fizz_buzz(30))
 #print (465, fizz_buzz(465))
 #print (444, fizz_buzz(444))
 #print (222, fizz_buzz(222))
-#print (555, fizz_buzz(555))
-#print (500, fizz_buzz(500))
+print (555, fizz_buzz(555))
+print (500, fizz_buzz(500))
+
 

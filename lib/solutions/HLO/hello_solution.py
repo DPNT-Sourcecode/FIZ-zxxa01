@@ -10,5 +10,3 @@ def hello(friend_name):
 
 #hello('joihn')
 
-
-

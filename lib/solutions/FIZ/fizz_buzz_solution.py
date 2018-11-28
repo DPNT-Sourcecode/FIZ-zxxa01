@@ -8,12 +8,14 @@ def fizz_buzz(number):
 	op="fizz"
      elif (fcheck[1])!=0 and (bcheck[1]==0):
 	op="buzz"
-        else op=number
-     return = op 
+     else:
+	     op=number
+     return  op 
 
 #test function 
 
 print fizz_buzz(10)
+
 
 
 

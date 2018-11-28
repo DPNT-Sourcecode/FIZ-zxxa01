@@ -7,12 +7,8 @@ def sum (int1, int2):
 
 #test function
 
-print sum(0,1)
+#print sum(0,1)
 
 
 #test function - type error
 #print(i, sum('one',1))
-
-
-
-

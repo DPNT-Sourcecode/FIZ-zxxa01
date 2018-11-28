@@ -12,7 +12,3 @@ print sum(0,1)
 
 #test function - type error
 #print(i, sum('one',1))
-
-
-
-

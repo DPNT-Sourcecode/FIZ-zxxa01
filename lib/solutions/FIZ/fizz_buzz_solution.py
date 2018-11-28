@@ -29,11 +29,11 @@ def fizz_buzz(number):
     	    op= 'fizz'
 	elif isDivFive(number) or containsFive(number):
     	    op= 'buzz'
-	elif (isDivFive(number) or containsFive(number)) and (isDivThree(number) or containsThree(number)) :
-    	    op= 'fizz buzz'
-
 	else:
      	    op= number
+
+	if (isDivFive(number) or containsFive(number)) and (isDivThree(number) or containsThree(number)) :
+    	    op= 'fizz buzz'
 
         if number==0:
 	    op= number
@@ -42,8 +42,9 @@ def fizz_buzz(number):
 	return op 
    	 
 #test function 
-for i in range (-4,35):
-	print(i,fizz_buzz(i))
+#for i in range (-4,35):
+#	print(i,fizz_buzz(i))
+
 
 
 

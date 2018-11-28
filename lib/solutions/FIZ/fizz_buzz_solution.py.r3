@@ -46,6 +46,7 @@ def fizz_buzz(number):
                  return False
 
 	if isDivThree(number) or containsThree(number):
+            print "check fizz ",number
     	    op= 'fizz'
 	elif isDivFive(number) or containsFive(number):
     	    op= 'buzz'
@@ -53,6 +54,7 @@ def fizz_buzz(number):
      	    op= str(number)
 
 	if (isDivFive(number) or containsFive(number)) and (isDivThree(number) or containsThree(number)) :
+            print "check fizz buzz",number
     	    op= 'fizz buzz'
 
         if (isDeluxe(number)):
@@ -72,18 +74,19 @@ def fizz_buzz(number):
 #for i in range (-4,35):
 #	print(i,fizz_buzz(i))
 #test function
-for i in range (442,445):
-        print(i,fizz_buzz(i))
+#for i in range (442,445):
+#        print(i,fizz_buzz(i))
 
 #print (10, fizz_buzz(10))
 #print (12, fizz_buzz(12))
 #print (11, fizz_buzz(11))
-print (1111, fizz_buzz(1111))
+#print (1111, fizz_buzz(1111))
 #print (15, fizz_buzz(15))
 #print (33, fizz_buzz(33))
-print (22, fizz_buzz(22))
+#print (22, fizz_buzz(22))
 #print (30, fizz_buzz(30))
 #print (465, fizz_buzz(465))
-print (444, fizz_buzz(465))
-print (555, fizz_buzz(555))
-print (500, fizz_buzz(500))
+print (444, fizz_buzz(444))
+#print (555, fizz_buzz(555))
+#print (500, fizz_buzz(500))
+

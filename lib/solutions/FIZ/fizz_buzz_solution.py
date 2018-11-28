@@ -66,15 +66,10 @@ def fizz_buzz(number):
 #for i in range (-4,35):
 #	print(i,fizz_buzz(i))
 
-print (15, fizz_buzz(15))
-print (33, fizz_buzz(33))
-print (30, fizz_buzz(30))
-print (465, fizz_buzz(465))
-print (444, fizz_buzz(465))
-print (555, fizz_buzz(555))
-print (500, fizz_buzz(500))
-
-
-
-
-
+#print (15, fizz_buzz(15))
+#print (33, fizz_buzz(33))
+#print (30, fizz_buzz(30))
+#print (465, fizz_buzz(465))
+#print (444, fizz_buzz(465))
+#print (555, fizz_buzz(555))
+#print (500, fizz_buzz(500))

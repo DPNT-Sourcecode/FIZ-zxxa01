@@ -1,12 +1,13 @@
 # friend_name = unicode string
 def hello(friend_name):
-    print "Hello, World!"
+    return "Hello, World!"
 
 
 #test function
 
-hello("Craftsman")
-hello("Mr. X")
+#print hello("Craftsman")
+#print hello("Mr. X")
+
 
 
 
